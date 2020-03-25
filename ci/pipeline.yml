@@ -46,11 +46,11 @@ jobs:
                export M2_HOME=$(pwd)/.m2
                cd repo/
                ./gradlew build
-               mkdir ../build/libs
-               cp build/libs/*.jar ../build/libs/
+               cp build/libs/*.jar ../build/
          caches:
            - path: .gradle/
            - path: .m2/
      - put: pws-dev
        params:
          manifest: repo/manifest.yml
+         path: build/*.jar
