@@ -16,7 +16,7 @@ resources:
  - name: repo
    type: git
    source:
-     uri: https://github.com/raymond700620/tdd.git
+     uri: https://github.com/raymond700620/rps.git
      branch: master
 
  - name: pws-dev
