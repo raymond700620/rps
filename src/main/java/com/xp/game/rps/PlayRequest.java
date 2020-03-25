@@ -8,6 +8,7 @@ public class PlayRequest {
         this.p2 = p2;
     }
 
+    
     public String getP1() {
         return p1;
     }
