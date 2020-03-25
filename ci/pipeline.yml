@@ -9,7 +9,7 @@ definitions:
  - &pcf-source-details
    api: https://api.run.pivotal.io
    Username: rfang@pivotal.io
-   Password: Fang@700620
+   Password: <replacement>
    organization: sashin-org
 
 resources:
