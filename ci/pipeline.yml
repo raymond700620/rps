@@ -53,4 +53,7 @@ jobs:
            - path: .m2/
      - put: pws-dev
        params:
-         manifest: repo/ci/manifest.yml
+         manifest: repo/ci/manifest-dev.yml
+         vars:
+           app_name: rps-FILLINPAIRINITIALS
+         path: build/*.jar
