@@ -10,6 +10,7 @@ public class RPS {
             return Result.P1_WINS;
         }
 
+
         return Result.P2_WINS;
     }
 }

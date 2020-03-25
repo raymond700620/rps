@@ -45,6 +45,7 @@ jobs:
              - |
                export M2_HOME=$(pwd)/.m2
                cd repo/
+               ls -l
                ./gradlew build
                cp build/libs/*.jar ../build/
                cp ci/manifest-dev.yml ../build/manifest-dev.yml
