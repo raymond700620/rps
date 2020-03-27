@@ -16,6 +16,11 @@ public class RPSController {
         this.repo = repo;
     }
 
+    @GetMapping("/")
+    String hello() {
+        return "Hello RPS!!";
+    }
+
     @PostMapping("/play")
     String play(@RequestBody PlayRequest playRequest) {
         Result result = RPS.play(Throw.valueOf(playRequest.getP1().toUpperCase()),
