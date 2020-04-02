@@ -18,7 +18,7 @@ public class RPSController {
 
     @GetMapping("/")
     String hello() {
-        return "Hello RPS!!";
+        return "Hello XP!!";
     }
 
     @PostMapping("/play")
